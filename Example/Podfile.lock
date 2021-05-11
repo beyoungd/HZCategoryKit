@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - HZCategoryKit (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - HZCategoryKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  HZCategoryKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  HZCategoryKit: c90ed9df4187e61b86d0835371bfcd8062bf41fe
+
+PODFILE CHECKSUM: 7379ee961136748d15f1db8193368f433ebaf313
+
+COCOAPODS: 1.10.0.rc.1
